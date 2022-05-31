@@ -15,7 +15,7 @@ int main ()
   a = y/((x-root1)*(x-root2));
   //printf ("f(x)=%lf(x%+lf)(x%+lf)\n", a, -root1, -root2);
   b = a*(-root2-root1);
-  c = a*(-root1*-root2);
+  c = a*(root1*root2);
   printf ("f(x)=%lfxx%+lfx%+lf\n", a, b, c);
   return EXIT_SUCCESS;
 }
